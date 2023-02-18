@@ -1,5 +1,5 @@
 
-# Contrôle           
+# Projet          
 # Matière : JEE 
 Nom complet : Ayyoub TELMOUDY
 Nom complet : Ayyoub TELMOUDY
@@ -24,11 +24,11 @@ Groupe : G3 / 32
 
   le microservice customer-service à travers la gateway 
 
-    ![CHEESE!](steps/1.PNG)
+   ![CHEESE!](steps/1.PNG)
 
   le microservice inverntory-service à travers la gateway
 
-    ![CHEESE!](steps/2.PNG)
+   ![CHEESE!](steps/2.PNG)
 
  4) l'annuaire Eureka Discrovery Service :
 
