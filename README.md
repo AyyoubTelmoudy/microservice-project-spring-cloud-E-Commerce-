@@ -114,14 +114,14 @@ keycloak adapter
 frontend angular
 installation de la library keycloak-js et keycloak-angular et configuration de keycloak adapter
 
- ![CHEESE!](steps/keycloak1.PNG.PNG)
+ ![CHEESE!](steps/keycloak1.PNG)
 
  
-![CHEESE!](steps/keycloak2.PNG.PNG)
+![CHEESE!](steps/keycloak2.PNG)
  
  Utilisateur not connecté
  
-  ![CHEESE!](steps/not authenticated.PNG)
+  ![CHEESE!](steps/notauth.PNG)
 
  Intégration de Kafka et stream processing
  
