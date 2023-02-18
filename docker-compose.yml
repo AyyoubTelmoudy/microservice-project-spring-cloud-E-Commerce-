@@ -165,7 +165,7 @@ services:
     image: front-end
     container_name: front-end
     ports:
-      - "4200:4200"
+      - "4200:80"
     depends_on:
       - billing-service
       - random-orders
