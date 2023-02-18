@@ -123,9 +123,9 @@ installation de la library keycloak-js et keycloak-angular et configuration de k
  
   ![CHEESE!](steps/not authenticated.PNG)
 
-  Utilisateur connecté
+ Intégration de Kafka et stream processing
  
-  ![CHEESE!](steps/authenticated_angular.PNG)
+  ![CHEESE!](steps/stream.PNG)
  
  
  

@@ -11,4 +11,3 @@ COPY . .
 FROM nginx:1.17.1-alpine
 WORKDIR /app
 COPY --from=build /app/dist/ecom-web-app /usr/share/nginx/html
-
