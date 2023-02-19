@@ -39,7 +39,7 @@ services:
       - control
 
   keycloak:
-    image: quay.io/keycloak/keycloak
+    image: ayyoubtelmoudy/keycloak
     container_name: keycloak
     ports:
       - "8080:8080"
@@ -47,7 +47,7 @@ services:
       - control
 
   gateway:
-    image: gateway-service.jar
+    image: ayyoubtelmoudy/gateway-service.jar
     container_name: gateway
     ports:
       - "8888:8888"
@@ -63,7 +63,7 @@ services:
       - control
 
   random-orders:
-    image: random-orders.jar
+    image: ayyoubtelmoudy/random-orders.jar
     container_name: random-orders
     ports:
       - "8084:8084"
@@ -84,7 +84,7 @@ services:
       - control
 
   analytics-service:
-    image: analytics-service.jar
+    image: ayyoubtelmoudy/analytics-service.jar
     container_name: analytics-service
     ports:
       - "8086:8086"
@@ -103,7 +103,7 @@ services:
       - control
 
   billing-service:
-    image: billing-service.jar
+    image: ayyoubtelmoudy/billing-service.jar
     container_name: billing-service
     ports:
       - "8083:8083"
@@ -124,7 +124,7 @@ services:
       - control
 
   customer-service:
-    image: customer-service.jar
+    image: ayyoubtelmoudy/customer-service.jar
     container_name: customer-service
     ports:
       - "8081:8081"
@@ -143,7 +143,7 @@ services:
       - control
 
   inventory-service:
-    image: inventory-service.jar
+    image: ayyoubtelmoudy/inventory-service.jar
     container_name: inventory-service
     ports:
       - "8082:8082"
@@ -162,7 +162,7 @@ services:
       - control
 
   front-end:
-    image: front-end
+    image: ayyoubtelmoudy/front-end
     container_name: front-end
     ports:
       - "4200:80"
